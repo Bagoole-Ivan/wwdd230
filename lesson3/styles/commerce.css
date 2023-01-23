@@ -1,0 +1,21 @@
+header {
+    display: grid;
+    border-color: black;
+    background-color: aqua;
+}
+.im1 {
+    height: 200px;
+    width: 200px;
+    border-color: aqua;
+}
+.hd {
+    margin-left: 500px;
+    margin-top: -150px;
+}
+.Pages {
+    background-color: skyblue;
+}
+.learn {
+    background-color: greenyellow;
+    display: flex;
+}
