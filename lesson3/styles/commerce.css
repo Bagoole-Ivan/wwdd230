@@ -19,3 +19,8 @@ header {
     background-color: greenyellow;
     display: flex;
 }
+
+footer {
+    background-color: skyblue;
+    display: flex;
+}
