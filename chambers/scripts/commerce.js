@@ -12,3 +12,8 @@ document.querySelector("#copyright-year").innerHTML = year;
 let dateModified = ('Last updated: ' + document.lastModified);
 //then we search the document by the ID, in this case "date-mod", and put in the string found in dateModified in that spot: 
 document.getElementById("date-mod").innerHTML = dateModified;
+
+//current date
+let dateCurrent = (document.lastModified);
+
+document.getElementById("date-mode").innerHTML = dateCurrent;
