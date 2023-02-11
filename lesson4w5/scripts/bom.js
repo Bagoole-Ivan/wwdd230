@@ -7,15 +7,15 @@ button.addEventListener('click', () => {
         let chapter = input.value;
 
         const li = document.createElement('li');
-        const deleteBtn = document.createElement('button');
+        const deleteButton = document.createElement('button');
 
         li.textContent = chapter;
-        deleteBtn.textContent = 'X';
-        deleteBtn.addEventlistener('click', () => {
+        deleteButton.textContent = 'X';
+        deleteButton.addEventlistener('click', () => {
             list.removeChild(li);
         });
 
-        li.appendChild(deleteBtn);
+        li.appendChild(deleteButton);
         list.appendChild(li);
     }
     input.value = '';
